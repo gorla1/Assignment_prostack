@@ -142,6 +142,3 @@ var sum = newArray.reduce((a,c)=> a+c );
 
 number == sum ? console.log("Armstrong Number") : console.log("not an Armstrong");
 
-
-
-
