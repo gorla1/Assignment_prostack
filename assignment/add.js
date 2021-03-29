@@ -1,4 +1,5 @@
-/*
+
+// similar to fibnachi serires
 var num = [5,8,9,7,16];
 var newArray = [];
 for(let i=0;i<num.length-1; i++){
@@ -6,8 +7,10 @@ for(let i=0;i<num.length-1; i++){
     newArray.push(num[i]+num[i+1]);
 }
 newArray.push(num[num.length-1]);
-console.log(newArray);
-*/
+console.log(num);
+console.table(newArray);
+
+
 
 // input: [5,8,9,7,16]
 // output: [13,17,16,23,16]
@@ -24,10 +27,8 @@ console.log(newArray);
 
 // console.log(s);
 
-var num = [2,5,6];
-console.log(typeof num);
 
-var name = num.toString();
-console.log(typeof name);
 
-console.log(num,name);
+
+
+
