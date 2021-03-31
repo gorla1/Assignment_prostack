@@ -1,6 +1,6 @@
 
 // 13.fibinochi serice
-
+fibonacciGenerator(15)
 function fibonacciGenerator (n) {
     var output=[];
 if (n===1){
@@ -21,7 +21,7 @@ console.table(output);
 return output;
 }
 
-fibonacciGenerator(15)
+
 
 
 // program to check arm strong number
